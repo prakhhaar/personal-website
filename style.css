@@ -1,0 +1,11 @@
+.nav-container {
+    display: flex;
+    height: 20vh;
+    align-content: flex-end;
+    text-align: right;
+}
+
+.nav-item {
+    margin: 0.5rem;
+    text-decoration: none;
+}

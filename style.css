@@ -57,7 +57,7 @@ body {
   justify-content: center;
   text-align: center;
   padding-top: 10rem;
-  padding-bottom: 15rem;
+  padding-bottom: 12rem;
 }
 
 .image-size {
@@ -116,4 +116,25 @@ body {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.about-section {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  margin-top: -110px;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  line-height: 2rem;
+}
+
+.big-titles {
+  color: #0c2050;
+  opacity: 0.04;
+  font-size: 231px;
+  font-family: proxima-bold;
+  user-select: none;
 }

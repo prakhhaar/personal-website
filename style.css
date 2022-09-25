@@ -156,6 +156,7 @@ body {
  
 .tech-stack-row {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     flex-flow: row;
@@ -164,3 +165,48 @@ body {
 .margin-row {
     margin-top: 8rem;
 }
+
+.grid-container {
+    display: inline-grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-item {
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    justify-items: center;
+    border-radius: 10px;
+}
+
+.card-image {
+    height: 200px;
+    background-color: aqua;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.project-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card-1 {
+    background-image: url("/Images/stonks.png");
+}
+
+.card-2 {
+    background-image: url("/Images/cashApp-preview.png");
+}
+
+.card-3 {
+    background-image: url("/Images/triangls-preview.png");
+}
+
+.card-4 {
+    background-image: url("/Images/lucky-preview.png");
+}
+

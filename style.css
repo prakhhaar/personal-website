@@ -4,6 +4,10 @@
   --primary-color: #0c2151;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
@@ -144,69 +148,94 @@ body {
 }
 
 .logo-size {
-    width: 80px;
-    margin-top: -50px;
+  width: 80px;
+  margin-top: -50px;
 }
 
 .tech-stack-name {
-    margin-top: 5px;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;;
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
- 
+
 .tech-stack-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-flow: row;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row;
 }
 
 .margin-row {
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
 .grid-container {
-    display: inline-grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+  display: inline-grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .grid-item {
-    background-color: white;
-    height: 350px;
-    width: 400px;
-    justify-items: center;
-    border-radius: 10px;
+  background-color: white;
+  height: 350px;
+  width: 400px;
+  justify-items: center;
+  border-radius: 10px;
+}
+
+.grid-item:hover  {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
 }
 
 .card-image {
-    height: 200px;
-    background-color: aqua;
-    background-size: cover;
-    border-radius: 10px;
+  height: 200px;
+  background-color: aqua;
+  background-size: cover;
+  border-radius: 10px;
 }
 
 .project-name {
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .card-1 {
-    background-image: url("/Images/stonks.png");
+  background-image: url("/Images/stonks.png");
 }
 
 .card-2 {
-    background-image: url("/Images/cashApp-preview.png");
+  background-image: url("/Images/cashApp-preview.png");
 }
 
 .card-3 {
-    background-image: url("/Images/triangls-preview.png");
+  background-image: url("/Images/triangls-preview.png");
 }
 
 .card-4 {
-    background-image: url("/Images/lucky-preview.png");
+  background-image: url("/Images/lucky-preview.png");
 }
 
+.card-button {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project-description-1 {
+  margin-bottom: 45px;
+}
+
+.project-description-2 {
+  margin-bottom: 25px;
+}

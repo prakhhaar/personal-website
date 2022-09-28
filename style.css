@@ -4,6 +4,10 @@
   --primary-color: #0c2151;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -141,7 +145,7 @@ body {
 .big-titles {
   color: #0c2050;
   opacity: 0.04;
-  font-size: 200px;
+  font-size: 15vw;
   font-weight: bold;
   font-family: proxima-bold;
   user-select: none;
@@ -172,9 +176,9 @@ body {
 
 .grid-container {
   display: inline-grid;
-  gap: 30px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  gap: 4vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   margin-top: -60px;
 }
 

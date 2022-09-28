@@ -38,6 +38,10 @@ body {
   align-items: center;
 }
 
+ul {
+  margin-right: 2rem;
+}
+
 .nav-item {
   padding: 1rem;
   text-decoration: none;
@@ -66,8 +70,8 @@ body {
   max-height: fit-content;
   justify-content: center;
   text-align: center;
-  padding-top: 10rem;
-  padding-bottom: 14rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .image-size {
@@ -318,6 +322,14 @@ body {
   margin-top: 1rem;
   text-align: left;
   letter-spacing: normal;
+}
+
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row;
 }
 
 .footer-link {

@@ -185,13 +185,14 @@ body {
   justify-items: center;
   border-radius: 10px;
   border: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
 }
 
 .grid-item:hover {
   cursor: pointer;
   box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
-  transition: all 1s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .card-image {
@@ -280,13 +281,14 @@ body {
   border-radius: 10px;
   border: 1px solid #ccc;
   padding: 0.5rem 0.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .blog-card:hover {
   cursor: pointer;
   box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
-  transition: all 1s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .blog-image {
@@ -297,24 +299,54 @@ body {
 .blog-description {
   margin-top: 10px;
   margin-bottom: 50px;
+  letter-spacing: normal;
 }
 
 .footer {
-    background-color: var(--primary-color);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
+  background-color: var(--primary-color);
+  padding: 3rem 3rem;
 }
 
 .footer-text {
-    text-align: center;
-    margin: 0 20rem 0rem 20rem;
-    color: white;
-    
+  color: white;
+  width: 40%;
+  margin-top: 1rem;
+  letter-spacing: normal;
 }
 
-.footer-links {
-
+.footer-link {
+  margin-top: 1rem;
+  text-align: center;
 }
 
+.github-icon {
+  width: 40px;
+  margin: 0 0.5rem;
+  margin-bottom: 0.3rem;
+  transition: all 0.3s ease-in-out;
+}
 
+.github-icon:hover {
+  content: url("/Images/github-color.svg");
+  transform: translateY(-5px);    
+}
+
+.twitter-icon {
+  width: 40px;
+  margin: 0 0.5rem;
+  margin-bottom: 0.3rem;
+  transition: all 0.3s ease-in-out;
+}
+.twitter-icon:hover {
+  content: url("/Images/birdapp-color.svg");
+  transform: translateY(-5px);    
+}
+
+.linkedin-icon {
+  width: 51px;
+  transition: all 0.3s ease-in-out;
+}
+.linkedin-icon:hover {
+  content: url("/Images/linkedin-color.svg");
+  transform: translateY(-5px);    
+}

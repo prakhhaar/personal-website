@@ -334,7 +334,6 @@ body {
 }
 
 .github-icon:hover {
-  content: url("/Images/github-color.svg");
   transform: translateY(-5px);
 }
 
@@ -345,7 +344,6 @@ body {
   transition: all 0.3s ease-in-out;
 }
 .twitter-icon:hover {
-  content: url("/Images/birdapp-color.svg");
   transform: translateY(-5px);
 }
 
@@ -355,7 +353,6 @@ body {
 }
 
 .linkedin-icon:hover {
-  content: url("/Images/linkedin-color.svg");
   transform: translateY(-5px);
 }
 

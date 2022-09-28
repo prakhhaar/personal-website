@@ -304,19 +304,22 @@ body {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 3rem 3rem;
+  padding: 3rem 3rem 0.5rem 3rem;
+  text-align: center;
 }
 
 .footer-text {
   color: white;
   width: 40%;
   margin-top: 1rem;
+  text-align: left;
   letter-spacing: normal;
 }
 
 .footer-link {
   margin-top: 1rem;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .github-icon {
@@ -328,7 +331,7 @@ body {
 
 .github-icon:hover {
   content: url("/Images/github-color.svg");
-  transform: translateY(-5px);    
+  transform: translateY(-5px);
 }
 
 .twitter-icon {
@@ -339,14 +342,28 @@ body {
 }
 .twitter-icon:hover {
   content: url("/Images/birdapp-color.svg");
-  transform: translateY(-5px);    
+  transform: translateY(-5px);
 }
 
 .linkedin-icon {
   width: 51px;
   transition: all 0.3s ease-in-out;
 }
+
 .linkedin-icon:hover {
   content: url("/Images/linkedin-color.svg");
-  transform: translateY(-5px);    
+  transform: translateY(-5px);
+}
+
+footer hr {
+  margin: 0.3rem 25rem 0.3rem 25rem;
+  border: 0;
+  border-top: 2px solid hsla(0, 0%, 100%, 0.1);
+}
+
+.dec-style {
+  color: #7186b7;
+  display: inline;
+  text-align: center;
+  letter-spacing: normal;
 }

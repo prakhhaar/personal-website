@@ -157,7 +157,7 @@ ul {
   font-size: 15vw;
   font-weight: bold;
   font-family: proxima-bold;
-  user-select: none;
+  /* user-select: none; */
 }
 
 .logo-size {
@@ -183,25 +183,18 @@ ul {
   margin-top: 8rem;
 }
 
-.project-margin-row {
-  margin-top: 3rem;
-}
-
 .project-row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  margin: 0 23rem;
-  flex-flow: row;
+  margin: 0rem 10rem;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   transition: all 0.3s ease-in-out;
-  gap: 2rem;
   border-radius: 1em;
 }
 
@@ -220,28 +213,35 @@ img {
 
 .card {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
-  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
-  border-radius: 1em;
-  background: #ece9e6;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: var(--primary-color);
   background: linear-gradient(to right, #ffffff, #ece9e6);
 }
 
 .card__body {
   font-family: "Quicksand", sans-serif;
   padding: 1rem;
-  background-color: white;
-  color: #696969;
+  background-color: var(--primary-color);
+  color: white;
   display: flex;
   text-align: start;
   flex-direction: column;
   gap: 0.5rem;
+  font-size: 15px;
 }
 
 h4 {
-  color: black;
+  color: white;
+}
+
+hr{
+  margin: 0.5rem 0rem;
+  border-width: 0.5px;
 }
 
 .tag {
@@ -263,12 +263,12 @@ h4 {
 }
 
 .tag-blue {
-  background: #56ccf2;
-  background: linear-gradient(to bottom, #2f80ed, #56ccf2);
-  color: #fafafa;
+  background: #007bff;
+  /* background: linear-gradient(to bottom, #2f80ed, #56ccf2); */
+  color: #fff;
 }
 
-.tag-brown {
+/* .tag-brown {
   background: #d1913c;
   background: linear-gradient(to bottom, #ffd194, #d1913c);
   color: #fafafa;
@@ -278,7 +278,7 @@ h4 {
   background: #cb2d3e;
   background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   color: #fafafa;
-}
+} */
 
 .card__body h4 {
   font-size: 1.5rem;
@@ -290,7 +290,7 @@ h4 {
   padding: 1rem;
   margin-top: auto;
   justify-content: space-evenly;
-  background-color: white;
+  background-color: var(--primary-color);
   color: var(--primary-color);
 }
 
@@ -317,6 +317,7 @@ h4 {
   background-color: var(--primary-color);
   padding: 10px;
   outline: none;
+  border: 1px solid #fff;
   border-radius: 4px;
 }
 .button-card:hover {
@@ -357,7 +358,7 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* margin-bottom: 2rem; */
+  margin-bottom: 1rem;
 }
 
 .footer-link {

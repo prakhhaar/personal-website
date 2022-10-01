@@ -27,7 +27,7 @@ body {
 }
 
 .nav-container {
-  height: 10vh;
+  max-height: 20vh;
   background-color: var(--primary-color);
   margin: auto;
   display: flex;

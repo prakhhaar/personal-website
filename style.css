@@ -43,6 +43,7 @@ ul {
 }
 
 .nav-item {
+  display: inline-block;
   text-decoration: none;
   color: white;
   letter-spacing: 1px;

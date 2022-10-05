@@ -9,8 +9,8 @@
     <link rel="shortcut icon" href="/Images/new-portfolio-favicon.png" type="image/x-icon">
   </head>
   <body>
-    <nav class="nav nav-container">
-      <h2 class="nav-text">PRAKHAR.</h2>
+    <nav id="navbar" class="nav nav-container">
+      <h2 class="nav-text"><a class="nav-item" href="#home">PRAKHAR.</a></h2>
       <ul>
         <li class="link hover-underline-animation">
           <a class="nav-item" href="#about">ABOUT</a>
@@ -24,15 +24,30 @@
       </ul>
     </nav>
 
-    <div class="section-intro">
-      <section>
+    <div class="section-intro" id="home">
+        <div class="home-page-nav">
+          <h2 class="nav-text">PRAKHAR.</h2>
+          <ul>
+            <li class="link hover-underline-animation">
+              <a class="nav-item" href="#about">ABOUT</a>
+            </li>
+            <li class="link hover-underline-animation">
+              <a class="nav-item" href="#projects">PROJECTS</a>
+            </li>
+            <li class="link hover-underline-animation">
+              <a class="nav-item" href="#blogs">BLOGS</a>
+            </li>
+          </ul>
+        </div>
+      
+      <section class="hero-section">
         <img
           class="image-size"
           src="/Images/pp-gray-circluar.png"
           alt="My photo"
         />
         <div class="image-text">
-          <p class="image-text-name">👋 Hi there, I'm Prakhar!</p>
+          <p class="image-text-name">👋Hi there, I'm Prakhar!</p>
           <br />
           <p class="image-text-bio">
             A 21-year-old budding
@@ -63,8 +78,11 @@
       </div>
     </div>
 
+    <!-- TECH STACK SECTION -->
+
     <div class="section">
       <h1 class="big-titles">TECH STACK</h1>
+      <!-- 1st ROW -->
       <div class="tech-stack-row">
         <div>
           <img class="logo-size" src="/Images/html5.svg" alt="HTML5" />
@@ -84,6 +102,7 @@
        
       </div>
 
+      <!-- 2nd ROW -->
       <div class="margin-row tech-stack-row">
         <div>
             <img class="logo-size" src="/Images/nodejs.svg" alt="NodeJS" />
@@ -121,7 +140,7 @@
                       <span class="tag tag-blue">CSS</span>
                       <span class="tag tag-blue">JavaScript</span>
                     </div>
-                    <!-- <h4>Stonks</h4> -->
+                    <h4>Stonks</h4>
                     <hr>
                     <p>If you enter the price details of the stock that you bought, this application will let you how much profit/loss you have made.
                       <br>
@@ -147,7 +166,7 @@
                       <span class="tag tag-blue">CSS</span>
                       <span class="tag tag-blue">JavaScript</span>
                     </div>
-                    <!-- <h4>Grootish</h4> -->
+                    <h4>Grootish</h4>
                     <hr>
                     <p>This app translates English language to the language used by Groots.
                       <br>
@@ -174,7 +193,7 @@
                       <span class="tag tag-blue">CSS</span>
                       <span class="tag tag-blue">JavaScript</span>
                     </div>
-                    <!-- <h4>Exploring triangles</h4> -->
+                    <h4>Fun with triangles</h4>
                     <hr>
                     <p>Explore few properties of triangles and take a quiz.
                       <br><br>
@@ -192,6 +211,7 @@
 
     </div>
 
+    <!-- BLOG SECTION -->
     <div class="section" id="blogs">
         <h1 class="big-titles">BLOGS</h1>
         <div class="project-row">
